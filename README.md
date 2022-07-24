@@ -3,6 +3,8 @@
   
   Este foi o meu projeto proposto na matéria de POO na faculdade, que se baseia num ecommerce, onde terá um estoque da loja, um controlador do estoque, e claro, o       usuário principal. Ambos tem seu login e um menu específico para cada acesso. 
   
+  ## Implementações
+  * Login - Tem dois possíveis logs, onde o seu acesso a determinada opções é distinta. O login do controlodar do estoque deve ter uma 
   --kldjadka
   
 ## Getting Started
