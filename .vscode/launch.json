@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Aplicacao",
+            "request": "launch",
+            "mainClass": "projetofinal.Aplicacao",
+            "projectName": "ecommerce_75f94535"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aplicacao",
+            "request": "launch",
+            "mainClass": "Aplicacao",
+            "projectName": "ecommerce_75f94535"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloFx",
+            "request": "launch",
+            "mainClass": "HelloFx",
+            "projectName": "ecommerce_75f94535",
+            "vmArgs": "--module-path \"C:\\Users\\Junior Oliveira\\Desktop\\javafx-sdk-18.0.1\\lib\" --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+@startuml
+
+abstract class Menu{
+    -static Estoque : estoque
+    -static String : escolha
+    -static Carrinho : carrinho
+    -static int : quantidadeP
+    +ContaUsuario : conta
+
+    +static menuControlador() 
+    +static menuUsuario(conta : ContaUsuario) : void
+    +static verificaCPF(cpf : String cpf) : boolean 
+}
+
+class Login {
+    - List<ControladorEstoque> : logsControlador
+    - List<ContaUsuario> : logsUsuarios
+    - ContaUsuario : conta
+
+    + <<constructor>> Login()
+
+    + acessoLogin(email : String, senha : String) : void
+}
+
+Login "1" --* "1  " ContaUsuario : tem
+Login "1" --* "1" ControladorEstoque :   tem
+	
+class ContaUsuario {
+    - int id;
+    - String endereço;
+    - String email;
+    - String senha;
+    - String nome;
+    - String cpf;
+    - Carrinho carrinho;
+    - Random numero;
+
+    + <<constructor>> ContaUsuario(email : String, senha : String) 
+
+    + setEndereço(String endereço) : void
+    + setEmail(String email) : void
+    + setSenha(String senha) : void
+    + setNome(String name) : void
+    + setCPF(String cpf) : void
+    + setId(int id) : void
+    + criaCarrinho(produto : Produto, quantidade : int) : Carrinho
+    + getCarrinho() : Carrinho
+    + getEndereço() : String
+    + getEmail() : String
+    + getSenha() : String
+    + getNome() : String
+    + getCpf() : String
+    + getId() : int
+    + toString() : String
+}
+
+ContaUsuario -- Produto
+ContaUsuario <-- Menu : tem
+
+class ControladorEstoque {
+    - String email;
+    - String senha;
+
+    + <<constructor>> ControladorEstoque(email : String, senha : String)
+    
+    + setEmail(email : String) : void
+    + setSenha(senha : String) : void
+    + getEmail() : String
+    + getSenha() : String
+}
+
+ControladorEstoque -- Produto
+ControladorEstoque <-- Menu :  tem
+
+class Carrinho {
+    - String pedidos 
+    - String pedidoFinal
+    - List<Produto> produtos
+
+    + <<constructor>> Carrinho(produto : Produto, quantidade : int)
+
+    + setProdutos(produtos : List<Produto>) : void
+    + toString() : String
+    + valorPagamento(escolha : String, forma : String, quantidade : int) : double
+    + getPedidos() : String
+    + getProdutos() List<Produto>
+}
+
+Carrinho "1" <-- "0...*" Produto : tem
+Carrinho "     1" --* "1 " ContaUsuario : pertence á
+
+class Estoque {
+    - List<Produto> estoque
+
+    + <<constructor>> Estoque()
+
+    + addProduto(produto : Produto) : boolean
+    + rmEstoque(String nome, double valor) : boolean
+    + dispProdutos(nome : String) : Produto
+    + getValor(nome : String) : double
+    + toString() : String
+}
+
+Estoque "1...n   " *--o "1...n" ControladorEstoque : pertence á
+Estoque "1   " o-- "1...*" Produto : possui
+
+class Produto {
+    - String nome
+    - double valor
+    - int quantidade
+
+    + <<constructor>> Produto(nome : String, valor : double, quantidade : int)
+    
+    + setNome(nome : String) : void
+    + setValor(valor : double) : void
+    + setQuantidade(quant : int) : void
+    + getNome() : String
+    + getValor() : double
+    + getQuant() : int
+    + toString() : String
+}
+
+@enduml
