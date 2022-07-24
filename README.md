@@ -1,3 +1,8 @@
+### E-commerce
+  Sistema de e-commerce de uma loja.
+  
+  Este foi o meu projeto proposto na matéria de POO na faculdade, que se baseia num ecommerce, onde terá um estoque da loja, um controlador do estoque, e claro, o       usuário principal. Ambos tem seu login e um menu específico para cada acesso. 
+  
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
