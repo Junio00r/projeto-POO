@@ -25,7 +25,7 @@ Para o usuário iniciar, ele deve inserir um email e uma senha, caso seja um nov
     
     2.__Para remover um produto do carrinho o usuário deve inserir o nome e valor do produto. Caso não haja produto, é retornado uma mensagem;__
     
-    __3.Se houver algum produto no seu carrinho, é mostrado como pedido (Isso não é de fato um pedido, mas eu não tinha tanto tempo para entregar, então não o fiz       bem feito, uma gambiarra em outras palavras);__
+    3.__Se houver algum produto no seu carrinho, é mostrado como pedido (Isso não é de fato um pedido, mas eu não tinha tanto tempo para entregar, então não o fiz       bem feito, uma gambiarra em outras palavras);__
     
     4.__Para finalizar um pedido, deve conter pelo menos um produto no carrinho. Se houver, então é lido o seu endereço completo e a forma de pagamento (À vista ou     Cartão) e no final é mostrado um pequeno recibo da compra;__
     
@@ -33,9 +33,14 @@ Para o usuário iniciar, ele deve inserir um email e uma senha, caso seja um nov
   
   
   * Controlador do Estoque - *(No menu do controlador tem 3 oções)*
+
     * 1 - Adicionar um produto no estoque
     * 2- Remover um produto do estoque
     * 3 - Sair
+
+  1.__Para o controlador inserir um produto no estoque ele deve inserir o nome, valor e quantidade do produto. No estoque, é verificado se já existe um produto com   essas mesmas especificações, se houver é apenas incrementada a quantidade, se não então é adicionado um novo produto no estoque;__
+  2.__Para remover um produto do estoque basta o controlador inserir o nome e valor do produto, se houver um produto com essas especificações ele é removido, caso contrário uma mensagem de erro é mostrado;__
+  3.__Volta para a página de login;__
    
     
 
