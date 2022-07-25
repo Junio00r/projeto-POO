@@ -21,7 +21,7 @@ Para o usuário iniciar, ele deve inserir um email e uma senha, caso seja um nov
   * 4 - Finalizar pedidO
   * 5 - Sair
 
-    1. __Para adicionar um produto no carrinho, o usuário terá que inserir o nome dele e quantidade que quer inserir, caso o nome esteja errado ou não tenha  quantidade que ele quer adicionar de produtos disponível, o usuário terá que tentar novamente.__
+  1.__ Para adicionar um produto no carrinho, o usuário terá que inserir o nome dele e quantidade que quer inserir, caso o nome esteja errado ou não tenha  quantidade que ele quer adicionar de produtos disponível, o usuário terá que tentar novamente.__
   
   **
     
