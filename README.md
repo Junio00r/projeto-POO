@@ -17,7 +17,7 @@ Este foi o meu projeto proposto na matéria de POO na faculdade que se baseia nu
     * 4 - Finalizar pedidO
     * 5 - Sair
     
-    -> Para adicionar um produto no carrinho, o usuário terá de inserir o nome dele e quantidade que quer inserir, caso o nome esteja errado ou não tenha quantidade que ele quer adicionar de produtos disponível, o usuário terá que tentar novamente.
+    - Para adicionar um produto no carrinho, o usuário terá de inserir o nome dele e quantidade que quer inserir, caso o nome esteja errado ou não tenha quantidade que ele quer adicionar de produtos disponível, o usuário terá que tentar novamente.
     
 
   
