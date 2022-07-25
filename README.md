@@ -8,7 +8,7 @@ Este foi o meu projeto proposto na matéria de POO na faculdade que se baseia nu
 
 * Menu
 
-  *Antes de mostra os seus respectivos menus, é mostrados o estoque os produtos neles*
+  *Antes de mostrar os seus respectivos menus, é mostrado o estoque e os produtos contidos neles...*
 
   * Usuário - *(No menu do usuário há 5 opções)*
     * 1 - Adicionar um produto no carrinho de compras 
@@ -16,7 +16,9 @@ Este foi o meu projeto proposto na matéria de POO na faculdade que se baseia nu
     * 3 - Visualizar seus pedidos
     * 4 - Finalizar pedidO
     * 5 - Sair
-    -> Antes de mostra os seus respectivos menus, é mostrados o estoque os produtos neles
+    
+    -> Para adicionar um produto no carrinho, o usuário terá de inserir o nome dele e quantidade que quer inserir, caso o nome esteja errado ou não tenha quantidade que ele quer adicionar de produtos disponível, o usuário terá que tentar novamente.
+    
 
   
   * Controlador do Estoque - *(No menu do controlador tem 3 oções)*
