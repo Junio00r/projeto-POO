@@ -38,14 +38,20 @@ Para o usuário iniciar, ele deve inserir um email e uma senha, caso seja um nov
     * 2- Remover um produto do estoque
     * 3 - Sair
 
-  1.__Para o controlador inserir um produto no estoque ele deve inserir o nome, valor e quantidade do produto. No estoque, é verificado se já existe um produto com   essas mesmas especificações, se houver é apenas incrementada a quantidade, se não então é adicionado um novo produto no estoque;__
-  
-  2.__Para remover um produto do estoque basta o controlador inserir o nome e valor do produto, se houver um produto com essas especificações ele é removido, caso contrário uma mensagem de erro é mostrado;__
-  
-  3.__Volta para a página de login;__
-  
-## Funcionalidades Requisitadas
-   
-    
+    1.__Para o controlador inserir um produto no estoque ele deve inserir o nome, valor e quantidade do produto. No estoque, é verificado se já existe um produto       com   essas mesmas especificações, se houver é apenas incrementada a quantidade, se não então é adicionado um novo produto no estoque;__
 
+    2.__Para remover um produto do estoque basta o controlador inserir o nome e valor do produto, se houver um produto com essas especificações ele é removido, caso     contrário uma mensagem de erro é mostrado;__
+
+    3.__Volta para a página de login;__
+ 
+## Funcionalidades & Pretensões
+   
+  * Das funcionalidades pedidas, não consegui implementar a interface *"Comparable"*, onde deveria definir a forma de ordenação das instâncias. E, também não           implementei a persistência de dados em texto ou binário, mesmo após encerrar a "aplicação". 
+
+  * Além de alguns erros de verificações, eu não consegui implementar varias outras funções que ao meu ver seria ideal para a aplicação e para cumprir com o que        seria esperado, pelo menos o essencial, como:
+      
+      * Exclusão de conta (Usuário e Controlador)
+      * Alteração de senha (Usuário)
+      * 
+  
   
