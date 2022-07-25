@@ -8,10 +8,10 @@ Este foi o meu projeto proposto na matéria de POO na faculdade que se baseia nu
 
 * Menu - 
   * Usuário - No menu do usuário há 5 opções
-    * 1 - Adicionar um produto no carrinho de compras 
-    * 2 - Remover um produto do carrinho
-    * 3 - Visualizar seus pedidos
-    * 4 - Finalizar pedido
+    + 1 - Adicionar um produto no carrinho de compras 
+    + 2 - Remover um produto do carrinho
+    + 3 - Visualizar seus pedidos
+    + 4 - Finalizar pedido
     * 5 - Sair *
   
     
