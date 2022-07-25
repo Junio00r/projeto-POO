@@ -48,10 +48,17 @@ Para o usuário iniciar, ele deve inserir um email e uma senha, caso seja um nov
    
   * Das funcionalidades pedidas, não consegui implementar a interface *"Comparable"*, onde deveria definir a forma de ordenação das instâncias. E, também não           implementei a persistência de dados em texto ou binário, mesmo após encerrar a "aplicação". 
 
-  * Além de alguns erros de verificações, eu não consegui implementar varias outras funções que ao meu ver seria ideal para a aplicação e para cumprir com o que        seria esperado, pelo menos o essencial, como:
+  * Além de alguns erros de verificações eu não consegui implementar varias outras funções que ao meu ver seria ideal para a aplicação e para cumprir com o que        seria esperado, como:
       
-      * Exclusão de conta (Usuário e Controlador)
       * Alteração de senha (Usuário)
-      * 
+      * Data e hora da compra (Usuário)
+      * Verificar cartão (Usuário)
+      * Exclusão de conta (Usuário e Controlador)
+      * Descrição do produto (Controlador)
   
   
+## Aprendendo
+
+  Foi algo bem desafiador, por perder parte da aula e era um pouco difícil de entender mesmo aula sendo boa. No ínicio eu queria fazer um jogo, onde o usuário         desenhava e os demais tentariam acertar o desenho, mas desperdicei tempo querendo fazer o que iria parecer muito bonito de se ver. Depois pensei em fazer um         ecommerce, e ainda pensava em usar GUI para ficar "bonitinho", mas repensei e desistir de usar GUI.
+  
+  Agora eu estou com uma visão de começar pelo essencial, que ao meu ver é a parte lógica e ser bem "tratada", claro que é bastante difícil fazer isso em uma         aplicação maior, mas deve-se sempre repensar no que pode ser implementado ou modificado, e a parte visual deve se levar em conta no fim de tudo. Não que eu         achasse que ter GUI no meu projeto iria deixar ele legal, mas achava que seria algo bacana fazer isso para no meu primeiro projeto, só agora percebi a tolisse que   foi pensar isso.
