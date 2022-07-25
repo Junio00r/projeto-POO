@@ -14,13 +14,16 @@ Para o usuário iniciar, ele deve inserir um email e uma senha, caso seja um nov
 *Antes de mostrar os seus respectivos menus, é mostrado o estoque e os produtos contidos neles...*
   
 * Usuário - *(No menu do usuário há 5 opções)*
+
   * 1 - Adicionar um produto no carrinho de compras 
   * 2 - Remover um produto do carrinho
   * 3 - Visualizar seus pedidos
   * 4 - Finalizar pedidO
   * 5 - Sair
     
-Para adicionar um produto no carrinho, o usuário terá que inserir o nome dele e quantidade que quer inserir, caso o nome esteja errado ou não tenha quantidade que ele quer adicionar de produtos disponível, o usuário terá que tentar novamente.
+  * **Para adicionar um produto no carrinho, o usuário terá que inserir o nome dele e quantidade que quer inserir, caso o nome esteja errado ou não tenha quantidade que ele quer adicionar de produtos disponível, o usuário terá que tentar novamente.
+  
+  **
     
     
 
