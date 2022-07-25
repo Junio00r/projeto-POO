@@ -1,7 +1,7 @@
 # E-commerce
 Sistema de e-commerce de uma loja.
   
-Este foi o meu projeto proposto na matéria de POO na faculdade que se baseia num ecommerce. Ademais, não há interface gráfica e há alguns problemas que não foram testados, além disso, não foram atentido todas as "funções" estabelecidas pelo professor. 
+Este foi o meu projeto proposto na matéria de POO na faculdade que se baseia num ecommerce. Ademais, não há interface gráfica e há alguns problemas que não foram testados, além disso, não foram atentido todas as funcionadlidades estabelecidas pelo professor. 
   
 ## Algumas das Implementações
 
@@ -39,8 +39,12 @@ Para o usuário iniciar, ele deve inserir um email e uma senha, caso seja um nov
     * 3 - Sair
 
   1.__Para o controlador inserir um produto no estoque ele deve inserir o nome, valor e quantidade do produto. No estoque, é verificado se já existe um produto com   essas mesmas especificações, se houver é apenas incrementada a quantidade, se não então é adicionado um novo produto no estoque;__
+  
   2.__Para remover um produto do estoque basta o controlador inserir o nome e valor do produto, se houver um produto com essas especificações ele é removido, caso contrário uma mensagem de erro é mostrado;__
+  
   3.__Volta para a página de login;__
+  
+## Funcionalidades Requisitadas
    
     
 
