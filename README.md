@@ -13,19 +13,23 @@ Para o usuário iniciar, ele deve inserir um email e uma senha, caso seja um nov
 
 *Antes de mostrar os seus respectivos menus, é mostrado o estoque e os produtos contidos neles...*
   
-* Usuário - *(No menu do usuário há 5 opções)*
+  * Usuário - *(No menu do usuário há 5 opções)*
 
-  * 1 - Adicionar um produto no carrinho de compras 
-  * 2 - Remover um produto do carrinho
-  * 3 - Visualizar seus pedidos
-  * 4 - Finalizar pedido
-  * 5 - Sair
+    * 1 - Adicionar um produto no carrinho de compras 
+    * 2 - Remover um produto do carrinho
+    * 3 - Visualizar seus pedidos
+    * 4 - Finalizar pedido
+    * 5 - Sair
 
-  1 - __Para adicionar um produto no carrinho, o usuário terá que inserir o nome dele e quantidade que quer inserir, caso o nome esteja errado ou não tenha             quantidade que ele quer adicionar de produtos disponível, o usuário terá que tentar novamente;
-  2 - Para remover um produto do carrinho o usuário deve inserir o nome e valor do produto. Caso não haja produto, é retornado uma mensagem;
-  3 - Se houver algum produto no seu carrinho, é mostrado como pedido (Isso não é de fato um pedido, mas eu não tinha tanto tempo para entregar, então não o fiz bem feito, uma gambiarra em outras palavras);
-  4 - Para finalizar um pedido, deve conter pelo menos um produto no carrinho. Se houver, então é lido o seu endereço completo e a forma de pagamento (À vista ou     Cartão) e no final é mostrado um pequeno recibo da compra.;
-  5 - Volta para a página de login;
+    1 - __Para adicionar um produto no carrinho, o usuário terá que inserir o nome dele e quantidade que quer inserir, caso o nome esteja errado ou não tenha             quantidade que ele quer adicionar de produtos disponível, o usuário terá que tentar novamente;
+    
+    2 - Para remover um produto do carrinho o usuário deve inserir o nome e valor do produto. Caso não haja produto, é retornado uma mensagem;
+    
+    3 - Se houver algum produto no seu carrinho, é mostrado como pedido (Isso não é de fato um pedido, mas eu não tinha tanto tempo para entregar, então não o fiz bem feito, uma gambiarra em outras palavras);
+    
+    4 - Para finalizar um pedido, deve conter pelo menos um produto no carrinho. Se houver, então é lido o seu endereço completo e a forma de pagamento (À vista ou     Cartão) e no final é mostrado um pequeno recibo da compra.;
+    
+    5 - Volta para a página de login;
   
   
   * Controlador do Estoque - *(No menu do controlador tem 3 oções)*
